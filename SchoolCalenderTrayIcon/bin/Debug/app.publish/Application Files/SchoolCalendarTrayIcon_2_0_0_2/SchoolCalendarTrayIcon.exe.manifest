@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SchoolCalendarTrayIcon.exe" version="2.0.0.2" publicKeyToken="6a2d9af0ae721d6c" language="en-AU" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SchoolCalendarTrayIcon" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SchoolCalendarTrayIcon.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SchoolCalendarTrayIcon.exe" size="642048">
+      <assemblyIdentity name="SchoolCalendarTrayIcon" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vvQP3fa+m1hyE+tpUqvsaT5y9O8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kz6sXJKLD6lnhMFBlUpJSeVQmsY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SchoolCalendarTrayIcon.exe.config" size="1446">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MLlQE3l/JGGIvD3IaE08jmjcgdQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=STHELENA\DIE0003" issuerKeyHash="6c714f1b28c189c0dfcd1eee7223b9255f406650" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8WpnNWG/2RpQ8vEd6QNJ4vqeZAo=</DigestValue></Reference></SignedInfo><SignatureValue>SvKYH38JC0NK3gVc/qpB823Up0Krbh0EF8DOCHgiD8hVgrq9oAfHr01Ae9c583ZoBLRuy/4cIhgauSehiuyrhkTEJnxX3fc2ho8QYhPTOUDkdZHRR3rffcfPCBnaGBXXH0RHsA1t9rim5RPCWmD1OgNHbAOxBap8+fwfgMvZpE8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qjllw7CWUnAQw/tPfsL7tk+U/sw34IiwXE3TSo+dkTBXrSwydaaJDyMqJBs0Sfzhoou+EXB1bJ6kB8Zz6p++ikKwY26xHm7Q3ll9OYa6qKmxc33IzKBfc4hDc/o7FxII6h4WcjnH59W0vZbKnSeTPs1ymU5z4LjhBjZpo2IU0i0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0a649efae24903e91df1f2501ad9bf6135676af1" Description="" Url=""><as:assemblyIdentity name="SchoolCalendarTrayIcon.exe" version="2.0.0.2" publicKeyToken="6a2d9af0ae721d6c" language="en-AU" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STHELENA\DIE0003</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+oYh4jEvYyvOYPcQEYNkkR3Ij1g=</DigestValue></Reference></SignedInfo><SignatureValue>Uf8LDwf4+ULPrWcmiy6yK7jqUSctDm6De1srubLMrpGO2hHnBbUmX4fQh5Owe75HlQi/p6fGkoAwLCvIcsVMMCPXTFB1cRXRflmLCE4+W5bcUkGPgTAUg3sRbEomyu5xzaYHsUyBx+dYYcZyf7aa6IHh6UQtUKOjkaoG5FjoGsY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qjllw7CWUnAQw/tPfsL7tk+U/sw34IiwXE3TSo+dkTBXrSwydaaJDyMqJBs0Sfzhoou+EXB1bJ6kB8Zz6p++ikKwY26xHm7Q3ll9OYa6qKmxc33IzKBfc4hDc/o7FxII6h4WcjnH59W0vZbKnSeTPs1ymU5z4LjhBjZpo2IU0i0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQfxu655pRN6JCsd2lL+OmhzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAUwBUAEgARQBMAEUATgBBAFwARABJAEUAMAAwADAAMzAeFw0xNjAyMTkwMTAzMTJaFw0xNzAyMTgwNzAzMTJaMCsxKTAnBgNVBAMeIABTAFQASABFAEwARQBOAEEAXABEAEkARQAwADAAMAAzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqOWXDsJZScBDD+09+wvu2T5T+zDfgiLBcTdNKj52RMFetLDJ1pokPIyokGzRJ/OGii74RcHVsnqQHxnPqn76KQrBjbrEebtDeWX05hrqoqbFzfcjMoF9ziENz+jsXEgjqHhZyOcfn1bS9lsqdJ5M+zXKZTnPguOEGNmmjYhTSLQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJ6bG/ZpXqcBZKWN0LTNOM2YpJ4rTzEueic1Sg1ywVhTPpJy0rD426rVznF34AzJ2Ve+G7pFcRk95Wcv8xvpqvJ4kTTt8JtFnGaX88/bJ0bjMoWdMLlfjrW9p8nVACiNHOBwPyq+6rbA4CL/OySubiBo6ebrM/ZPT6BbEjiGSd5q</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

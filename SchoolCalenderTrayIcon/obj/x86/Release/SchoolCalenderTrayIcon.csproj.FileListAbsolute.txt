@@ -1,0 +1,20 @@
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.exe
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.pdb
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.Properties.Resources.resources
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.csproj.GenerateResource.Cache
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.exe
+C:\Users\DIE0003\AppData\Local\Temporary Projects\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.pdb
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.exe
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.pdb
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.Properties.Resources.resources
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.csproj.GenerateResource.Cache
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.exe
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.pdb
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.csprojResolveAssemblyReference.cache
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.exe.manifest
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.application
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.exe.manifest
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.application
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\bin\Release\SchoolCalenderTrayIcon.exe.config
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\DIE0003\Documents\Visual Studio 2010\Projects\SchoolCalenderTrayIcon\SchoolCalenderTrayIcon\obj\x86\Release\SchoolCalenderTrayIcon.csproj.ResolveComReference.cache
